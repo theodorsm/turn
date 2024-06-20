@@ -9,7 +9,7 @@ RUN apk add --no-cache git
 
 WORKDIR /build
 # Clone Source using GIT
-RUN git clone --branch=$VERSION --depth=1 https://github.com/pion/turn.git turn && rm -rf turn/.git
+RUN git clone --branch=$VERSION --depth=1 https://github.com/theodorsm/turn.git turn && rm -rf turn/.git
 
 WORKDIR /build/turn/examples/turn-server/simple
 
@@ -30,9 +30,9 @@ ARG VERSION=master
 LABEL org.label-schema.build-date="${BUILD_DATE}" \
       org.label-schema.name="pion-turn" \
       org.label-schema.description="A toolkit for building TURN clients and servers in Go" \
-      org.label-schema.usage="https://github.com/pion/turn#readme" \
+      org.label-schema.usage="https://github.com/theodorsm/turn#readme" \
       org.label-schema.vcs-ref="${VCS_REF}" \
-      org.label-schema.vcs-url="https://github.com/pion/turn" \
+      org.label-schema.vcs-url="https://github.com/theodorsm/turn" \
       org.label-schema.vendor="Sean-Der" \
       org.label-schema.version="${VERSION}" \
       maintainer="https://github.com/pion"

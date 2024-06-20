@@ -8,10 +8,10 @@ import (
 	"net"
 
 	"github.com/pion/randutil"
-	"github.com/pion/stun/v2"
-	"github.com/pion/turn/v3/internal/allocation"
-	"github.com/pion/turn/v3/internal/ipnet"
-	"github.com/pion/turn/v3/internal/proto"
+	"github.com/theodorsm/stun/v2"
+	"github.com/theodorsm/turn/v3/internal/allocation"
+	"github.com/theodorsm/turn/v3/internal/ipnet"
+	"github.com/theodorsm/turn/v3/internal/proto"
 )
 
 const runesAlpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"

@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/pion/stun/v2"
+	"github.com/theodorsm/stun/v2"
 )
 
 func TestChromeAllocRequest(t *testing.T) {

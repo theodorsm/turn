@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/pion/turn/v3"
+	"github.com/theodorsm/turn/v3"
 	"golang.org/x/sys/unix"
 )
 

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pion/stun/v2"
+	"github.com/theodorsm/stun/v2"
 )
 
 type attr interface {

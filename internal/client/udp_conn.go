@@ -12,8 +12,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/pion/stun/v2"
-	"github.com/pion/turn/v3/internal/proto"
+	"github.com/theodorsm/stun/v2"
+	"github.com/theodorsm/turn/v3/internal/proto"
 )
 
 const (

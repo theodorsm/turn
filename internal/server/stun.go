@@ -4,8 +4,8 @@
 package server
 
 import (
-	"github.com/pion/stun/v2"
-	"github.com/pion/turn/v3/internal/ipnet"
+	"github.com/theodorsm/stun/v2"
+	"github.com/theodorsm/turn/v3/internal/ipnet"
 )
 
 func handleBindingRequest(r Request, m *stun.Message) error {
